@@ -1,0 +1,22 @@
+@import '_license-text';
+
+@import 'bootstrap/_functions';
+@import 'functions/_global-functions';
+
+@import "../clay_variables";
+
+@import 'atlas/_variables';
+
+@import 'variables/_bs4-variable-overwrites';
+
+@import 'bootstrap/_variables';
+
+@import '_variables';
+
+@import 'bootstrap/_mixins';
+
+@import '_mixins';
+
+
+@import "../liferay_variables_custom";
+@import "../liferay_variables";

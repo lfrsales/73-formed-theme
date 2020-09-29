@@ -1,0 +1,42 @@
+$body-bg: #fff;
+$border-color: #f1f2f5;
+$bright-color: #1865fb;
+$complementary-color: #30313f;
+$dark-color: #272833;
+$input-bg: #f1f2f5;
+$light-color: #e7e7ed;
+
+$lead-font-weight: 400;
+$small-font-size: 0.875rem;
+
+$btn-outline-secondary: (
+	color: #6b6c7e,
+);
+
+$navigation-bar-size: (
+	active-border-offset-bottom: -0.4375rem,
+	active-border-offset-bottom-mobile: -0.4375rem,
+	border-bottom-width: 0.0625rem,
+);
+
+$navigation-bar-light: (
+	border-color: $border-color,
+);
+
+$portlet-decorate-bg: #fff;
+$portlet-decorate-border: 1px solid $light-color;
+
+// Compat
+
+$compat-alerts: false;
+$compat-breadcrumbs: false;
+$compat-button_groups: false;
+$compat-buttons: false;
+$compat-cards: false;
+$compat-figures: false;
+$compat-form_validation: false;
+$compat-labels: false;
+$compat-responsive_utilities: false;
+$compat-stickers: false;
+$compat-toggle_card: false;
+$compat-utilities: false;

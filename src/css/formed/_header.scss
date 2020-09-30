@@ -1,0 +1,9 @@
+.header-bg {
+	background-color: $headerBackground;
+	background-color: var(--header-background, $headerBackground);
+}
+
+.header-text-color {
+	color: $headerTextColor;
+	color: var(--header-text-color, $headerTextColor);
+}

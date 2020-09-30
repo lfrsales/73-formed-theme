@@ -5,6 +5,70 @@
 				{
 					"frontendTokens": [
 						{
+							"defaultValue": "#1264AB",
+							"editorType": "ColorPicker",
+							"label": "headerBackground",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "header-background"
+								}
+							],
+							"name": "headerBackground",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#FFF",
+							"editorType": "ColorPicker",
+							"label": "headerTextColor",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "header-text-color"
+								}
+							],
+							"name": "headerTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#1264AB",
+							"editorType": "ColorPicker",
+							"label": "footerBackground",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "footer-background"
+								}
+							],
+							"name": "footerBackground",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#FFF",
+							"editorType": "ColorPicker",
+							"label": "footerTextColor",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "footer-text-color"
+								}
+							],
+							"name": "footerTextColor",
+							"type": "String"
+						}
+					],
+					"label": "background-colors",
+					"name": "backgroundColors"
+				}
+			],
+			"label": "formed-theme",
+			"name": "formedTheme"
+		},
+		{
+			"frontendTokenSets": [
+				{
+					"frontendTokens": [
+						{
 							"defaultValue": "#fff",
 							"editorType": "ColorPicker",
 							"label": "white",

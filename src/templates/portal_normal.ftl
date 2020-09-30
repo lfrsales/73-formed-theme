@@ -24,14 +24,14 @@
 	<div class="d-flex flex-column flex-fill" id="wrapper">
 		<#if show_header>
 			<header id="banner">
-				<div class="navbar navbar-classic navbar-top py-3">
+				<div class="header-bg header-text-color navbar navbar-classic navbar-top py-3">
 					<div class="container user-personal-bar">
 						<div class="align-items-center autofit-row">
 							<a class="${logo_css_class} align-items-center d-md-inline-flex d-sm-none d-none logo-md" href="${site_default_url}" title="<@liferay.language_format arguments="" key="go-to-x" />">
 								<img alt="${logo_description}" class="mr-2" height="56" src="${site_logo}" />
 
 								<#if show_site_name>
-									<h2 class="font-weight-bold h2 mb-0 text-dark" role="heading" aria-level="1">${site_name}</h2>
+									<h2 class="font-weight-bold header-text-color h2 mb-0" role="heading" aria-level="1">${site_name}</h2>
 								</#if>
 							</a>
 
@@ -85,7 +85,7 @@
 		</section>
 
 		<#if show_footer>
-			<footer id="footer" role="contentinfo">
+			<footer class="footer-bg footer-text-color" id="footer" role="contentinfo">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center text-md-left">

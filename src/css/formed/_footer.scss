@@ -1,0 +1,9 @@
+.footer-bg {
+	background-color: $footerBackground;
+	background-color: var(--footer-background, $footerBackground);
+}
+
+.footer-text-color {
+	color: $footerTextColor;
+	color: var(--footer-text-color, $footerTextColor);
+}

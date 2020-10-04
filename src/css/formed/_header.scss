@@ -1,9 +1,47 @@
-.header-bg {
-	background-color: $headerBackground;
-	background-color: var(--header-background, $headerBackground);
+.upper-header-bg {
+	background-color: $upperHeaderBackground;
+	background-color: var(--upper-header-background, $upperHeaderBackground);
+
+	background-image: -webkit-linear-gradient(60deg, var(--upper-header-background, $upperHeaderBackground) 0%, var(--upper-header-background-blend, $upperHeaderBackgroundBlend) 120%);
+	background-image: linear-gradient(60deg, var(--upper-header-background, $upperHeaderBackground) 0%, var(--upper-header-background-blend, $upperHeaderBackgroundBlend) 120%);
 }
 
-.header-text-color {
-	color: $headerTextColor;
-	color: var(--header-text-color, $headerTextColor);
+.lower-header-bg {
+	background-color: $lowerHeaderBackground;
+	background-color: var(--lower-header-background, $lowerHeaderBackground);
+
+	background-image: -webkit-linear-gradient(60deg, var(--lower-header-background, $lowerHeaderBackground) 0%, var(--lower-header-background-blend, $lowerHeaderBackgroundBlend) 120%);
+	background-image: linear-gradient(60deg, var(--lower-header-background, $lowerHeaderBackground) 0%, var(--lower-header-background-blend, $lowerHeaderBackgroundBlend) 120%);
+}
+
+.lower-header-text-color {
+	color: $lowerHeaderTextColor;
+	color: var(--lower-header-text-color, $lowerHeaderTextColor);
+}
+
+.upper-header-text-color,
+.personal-bar-container .sign-in {
+	color: $upperHeaderTextColor;
+	color: var(--upper-header-text-color, $upperHeaderTextColor);
+}
+
+.lower-header > .container-fluid {
+	flex-direction: $lowerHeaderFlexDirection;
+	flex-direction: var(--lower-header-flex-direction, $lowerHeaderFlexDirection)
+}
+
+.site-logo {
+	height: $siteLogoHeight;
+	height: var(--site-logo-height, $siteLogoHeight);
+	width: $siteLogoWidth;
+	width: var(--site-logo-width, $siteLogoWidth);
+}
+
+// Fix horizontal scroll due to portlet topper overflowing with small navigation width.
+
+@media (min-width: 576px) {
+	.lower-header .portlet > .portlet-topper {
+		left: auto;
+		right: 0;
+	}
 }

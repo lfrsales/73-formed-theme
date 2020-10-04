@@ -7,33 +7,127 @@
 						{
 							"defaultValue": "#1264AB",
 							"editorType": "ColorPicker",
-							"label": "headerBackground",
+							"label": "upper-header-background",
 							"mappings": [
 								{
 									"type": "cssVariable",
-									"value": "header-background"
+									"value": "upper-header-background"
 								}
 							],
-							"name": "headerBackground",
+							"name": "upperHeaderBackground",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#558682",
+							"editorType": "ColorPicker",
+							"label": "upper-header-background-blend",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "upper-header-background-blend"
+								}
+							],
+							"name": "upperHeaderBackgroundBlend",
 							"type": "String"
 						},
 						{
 							"defaultValue": "#FFF",
 							"editorType": "ColorPicker",
-							"label": "headerTextColor",
+							"label": "upper-header-text-color",
 							"mappings": [
 								{
 									"type": "cssVariable",
-									"value": "header-text-color"
+									"value": "upper-header-text-color"
 								}
 							],
-							"name": "headerTextColor",
+							"name": "upperHeaderTextColor",
 							"type": "String"
 						},
 						{
+							"defaultValue": "#FFF",
+							"editorType": "ColorPicker",
+							"label": "lower-header-background",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "lower-header-background"
+								}
+							],
+							"name": "lowerHeaderBackground",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#FFF",
+							"editorType": "ColorPicker",
+							"label": "lower-header-background-blend",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "lower-header-background-blend"
+								}
+							],
+							"name": "lowerHeaderBackgroundBlend",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#777",
+							"editorType": "ColorPicker",
+							"label": "lower-header-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "lower-header-text-color"
+								}
+							],
+							"name": "lowerHeaderTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "row",
+							"label": "lower-header-flex-direction",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "lower-header-flex-direction"
+								}
+							],
+							"name": "lowerHeaderFlexDirection",
+							"type": "String"
+						},
+						{
+							"defaultValue": "56px",
+							"label": "site-logo-height",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "site-logo-height"
+								}
+							],
+							"name": "siteLogoHeight",
+							"type": "String"
+						},
+						{
+							"defaultValue": "auto",
+							"label": "site-logo-width",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "site-logo-width"
+								}
+							],
+							"name": "siteLogoWidth",
+							"type": "String"
+						}
+					],
+					"label": "header",
+					"name": "header"
+				},
+				{
+					"frontendTokens": [
+						{
 							"defaultValue": "#1264AB",
 							"editorType": "ColorPicker",
-							"label": "footerBackground",
+							"label": "footer-background",
 							"mappings": [
 								{
 									"type": "cssVariable",
@@ -44,9 +138,22 @@
 							"type": "String"
 						},
 						{
+							"defaultValue": "#558682",
+							"editorType": "ColorPicker",
+							"label": "footer-background-blend",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "footer-background-blend"
+								}
+							],
+							"name": "footerBackgroundBlend",
+							"type": "String"
+						},
+						{
 							"defaultValue": "#FFF",
 							"editorType": "ColorPicker",
-							"label": "footerTextColor",
+							"label": "footer-text-color",
 							"mappings": [
 								{
 									"type": "cssVariable",
@@ -57,8 +164,8 @@
 							"type": "String"
 						}
 					],
-					"label": "background-colors",
-					"name": "backgroundColors"
+					"label": "footer",
+					"name": "footer"
 				}
 			],
 			"label": "formed-theme",

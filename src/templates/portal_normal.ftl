@@ -24,41 +24,53 @@
 	<div class="d-flex flex-column flex-fill" id="wrapper">
 		<#if show_header>
 			<header id="banner">
-				<div class="header-bg header-text-color navbar navbar-classic navbar-top py-3">
-					<div class="container user-personal-bar">
+				<div class="navbar navbar-classic navbar-top py-2 upper-header upper-header-bg upper-header-text-color">
+					<div class="bg-transparent container-fluid px-lg-4 px-xl-6 user-personal-bar">
 						<div class="align-items-center autofit-row">
-							<a class="${logo_css_class} align-items-center d-md-inline-flex d-sm-none d-none logo-md" href="${site_default_url}" title="<@liferay.language_format arguments="" key="go-to-x" />">
-								<img alt="${logo_description}" class="mr-2" height="56" src="${site_logo}" />
+							<#if show_language_selector>
+								<div class="autofit-col language-selector mr-1 mr-md-2">
+									<#assign preferences = freeMarkerPortletPreferences.getPreferences("portletSetupPortletDecoratorId", "barebone") />
 
-								<#if show_site_name>
-									<h2 class="font-weight-bold header-text-color h2 mb-0" role="heading" aria-level="1">${site_name}</h2>
-								</#if>
-							</a>
+									<@liferay_portlet["runtime"]
+										defaultPreferences=preferences
+										portletProviderAction=portletProviderAction.VIEW
+										portletProviderClassName="com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry"
+									/>
+								</div>
+							</#if>
 
 							<#assign preferences = freeMarkerPortletPreferences.getPreferences({"portletSetupPortletDecoratorId": "barebone", "destination": "/search"}) />
 
-							<div class="autofit-col autofit-col-expand">
+							<div class="autofit-col flex-grow-1 flex-shrink-1">
 								<#if show_header_search>
-									<div class="justify-content-md-end mr-4 navbar-form" role="search">
+									<div class="justify-content-md-end ml-md-2 mr-2 mr-md-4 navbar-form" role="search">
 										<@liferay.search_bar default_preferences="${preferences}" />
 									</div>
 								</#if>
 							</div>
 
-							<div class="autofit-col">
+							<div class="autofit-col personal-bar-container">
 								<@liferay.user_personal_bar />
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="navbar navbar-classic navbar-expand-md navbar-light py-2">
-					<div class="container">
-						<a class="${logo_css_class} align-items-center d-inline-flex d-md-none logo-xs" href="${site_default_url}" rel="nofollow">
-							<img alt="${logo_description}" class="mr-2" height="56" src="${site_logo}" />
+				<div class="lower-header lower-header-bg lower-header-text-color navbar navbar-classic navbar-expand-md navbar-light py-2 site-navigation">
+					<div class="container-fluid px-lg-4 px-xl-6">
+						<a class="${logo_css_class} align-items-center d-md-inline-flex d-none logo-md mr-4" href="${site_default_url}" title="<@liferay.language_format arguments="" key="go-to-x" />">
+							<img alt="${logo_description}" class="mr-2 site-logo" src="${site_logo}" />
 
 							<#if show_site_name>
-								<h2 class="font-weight-bold h2 mb-0 text-dark">${site_name}</h2>
+								<h2 class="font-weight-light h2 mb-0 lower-header-text-color text-uppercase">${site_name}</h2>
+							</#if>
+						</a>
+						
+						<a class="${logo_css_class} align-items-center d-inline-flex d-md-none logo-xs mr-4" href="${site_default_url}" rel="nofollow">
+							<img alt="${logo_description}" class="mr-2 site-logo" src="${site_logo}" />
+
+							<#if show_site_name>
+								<h2 class="font-weight-light h2 mb-0 lower-header-text-color text-uppercase">${site_name}</h2>
 							</#if>
 						</a>
 

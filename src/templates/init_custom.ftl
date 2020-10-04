@@ -10,3 +10,10 @@
 <#else>
 	<#assign portal_content_css_class = "" />
 </#if>
+
+<#--  Formed Theme  -->
+
+<#assign
+	show_language_selector = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-language-selector"))
+	show_secondary_header_navigation = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-secondary-header-navigation"))
+/>

@@ -18,7 +18,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "#558682",
+							"defaultValue": "#6e094e",
 							"editorType": "ColorPicker",
 							"label": "upper-header-background-blend",
 							"mappings": [
@@ -138,7 +138,7 @@
 							"type": "String"
 						},
 						{
-							"defaultValue": "#558682",
+							"defaultValue": "#6e094e",
 							"editorType": "ColorPicker",
 							"label": "footer-background-blend",
 							"mappings": [

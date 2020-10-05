@@ -57,7 +57,7 @@
 				</div>
 
 				<div class="lower-header lower-header-bg lower-header-text-color navbar navbar-classic navbar-expand-md navbar-light py-2 site-navigation">
-					<div class="container-fluid px-lg-4 px-xl-6">
+					<div class="bg-transparent container-fluid px-lg-4 px-xl-6">
 						<a class="${logo_css_class} align-items-center d-md-inline-flex d-none logo-md mr-4" href="${site_default_url}" title="<@liferay.language_format arguments="" key="go-to-x" />">
 							<img alt="${logo_description}" class="mr-2 site-logo" src="${site_logo}" />
 

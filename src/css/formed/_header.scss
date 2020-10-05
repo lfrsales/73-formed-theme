@@ -1,40 +1,32 @@
 .upper-header-bg {
-	background-color: $upperHeaderBackground;
-	background-color: var(--upper-header-background, $upperHeaderBackground);
+	@include frontend-token(background-color, --upper-header-background, $upperHeaderBackground);
 
-	background-image: -webkit-linear-gradient(60deg, var(--upper-header-background, $upperHeaderBackground) 0%, var(--upper-header-background-blend, $upperHeaderBackgroundBlend) 120%);
 	background-image: linear-gradient(60deg, var(--upper-header-background, $upperHeaderBackground) 0%, var(--upper-header-background-blend, $upperHeaderBackgroundBlend) 120%);
 }
 
 .lower-header-bg {
-	background-color: $lowerHeaderBackground;
-	background-color: var(--lower-header-background, $lowerHeaderBackground);
+	@include frontend-token(background-color, --lower-header-background, $lowerHeaderBackground);
 
-	background-image: -webkit-linear-gradient(60deg, var(--lower-header-background, $lowerHeaderBackground) 0%, var(--lower-header-background-blend, $lowerHeaderBackgroundBlend) 120%);
 	background-image: linear-gradient(60deg, var(--lower-header-background, $lowerHeaderBackground) 0%, var(--lower-header-background-blend, $lowerHeaderBackgroundBlend) 120%);
 }
 
-.lower-header-text-color {
-	color: $lowerHeaderTextColor;
-	color: var(--lower-header-text-color, $lowerHeaderTextColor);
+.lower-header-text-color,
+.lower-header .portlet-navigation .navbar-nav .nav-item .nav-link {
+	@include frontend-token(color, --lower-header-text-color, $lowerHeaderTextColor);
 }
 
 .upper-header-text-color,
 .personal-bar-container .sign-in {
-	color: $upperHeaderTextColor;
-	color: var(--upper-header-text-color, $upperHeaderTextColor);
+	@include frontend-token(color, --upper-header-text-color, $upperHeaderTextColor);
 }
 
 .lower-header > .container-fluid {
-	flex-direction: $lowerHeaderFlexDirection;
-	flex-direction: var(--lower-header-flex-direction, $lowerHeaderFlexDirection)
+	@include frontend-token(flex-direction, --lower-header-flex-direction, $lowerHeaderFlexDirection);
 }
 
 .site-logo {
-	height: $siteLogoHeight;
-	height: var(--site-logo-height, $siteLogoHeight);
-	width: $siteLogoWidth;
-	width: var(--site-logo-width, $siteLogoWidth);
+	@include frontend-token(height, --site-logo-height, $siteLogoHeight);
+	@include frontend-token(width, --site-logo-width, $siteLogoWidth);
 }
 
 // Fix horizontal scroll due to portlet topper overflowing with small navigation width.

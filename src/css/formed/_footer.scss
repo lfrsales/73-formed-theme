@@ -1,12 +1,9 @@
 .footer-bg {
-	background-color: $footerBackground;
-	background-color: var(--footer-background, $footerBackground);
+	@include frontend-token(background-color, --footer-background, $footerBackground);
 
-	background-image: -webkit-linear-gradient(60deg, var(--footer-background, $footerBackground) 0%, var(--footer-background-blend, $footerBackgroundBlend) 120%);
 	background-image: linear-gradient(60deg, var(--footer-background, $footerBackground) 0%, var(--footer-background-blend, $footerBackgroundBlend) 120%);
 }
 
 .footer-text-color {
-	color: $footerTextColor;
-	color: var(--footer-text-color, $footerTextColor);
+	@include frontend-token(color, --footer-text-color, $footerTextColor);
 }

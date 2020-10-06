@@ -58,11 +58,11 @@
 
 				<div class="lower-header lower-header-bg lower-header-text-color navbar navbar-classic navbar-expand-md navbar-light py-2 site-navigation">
 					<div class="bg-transparent container-fluid px-lg-4 px-xl-6">
-						<a class="${logo_css_class} align-items-center d-md-inline-flex d-none logo-md mr-4" href="${site_default_url}" title="<@liferay.language_format arguments="" key="go-to-x" />">
-							<img alt="${logo_description}" class="mr-2 site-logo" src="${site_logo}" />
+						<a class="${logo_css_class} align-items-center d-md-flex d-none logo-md mx-2" href="${site_default_url}" title="<@liferay.language_format arguments="" key="go-to-x" />">
+							<img alt="${logo_description}" class="mx-2 site-logo" src="${site_logo}" />
 
 							<#if show_site_name>
-								<h2 class="font-weight-light h2 mb-0 lower-header-text-color text-uppercase">${site_name}</h2>
+								<h2 class="font-weight-light h2 mb-0 mx-2 lower-header-text-color text-uppercase">${site_name}</h2>
 							</#if>
 						</a>
 						

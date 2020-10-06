@@ -20,8 +20,14 @@
 	@include frontend-token(color, --upper-header-text-color, $upperHeaderTextColor);
 }
 
-.lower-header > .container-fluid {
-	@include frontend-token(flex-direction, --lower-header-flex-direction, $lowerHeaderFlexDirection);
+.lower-header {
+	& > .container-fluid {
+		@include frontend-token(flex-direction, --lower-header-flex-direction, $lowerHeaderFlexDirection);
+	}
+
+	.logo-md {
+		@include frontend-token(flex-direction, --lower-header-flex-direction, $lowerHeaderFlexDirection);
+	}
 }
 
 .site-logo {

@@ -17,7 +17,6 @@
 
 		<setting configurable="true" key="enable-sticky-header" type="checkbox" value="true" />
 		<setting configurable="true" key="show-language-selector" type="checkbox" value="true" />
-		<setting configurable="true" key="show-secondary-header-navigation" type="checkbox" value="false" />
     </settings>
     <roles>
       <role-name>User</role-name>

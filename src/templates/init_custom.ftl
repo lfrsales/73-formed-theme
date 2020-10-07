@@ -16,5 +16,4 @@
 <#assign
 	enable_sticky_header = getterUtil.getBoolean(themeDisplay.getThemeSetting("enable-sticky-header"))
 	show_language_selector = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-language-selector"))
-	show_secondary_header_navigation = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-secondary-header-navigation"))
 />

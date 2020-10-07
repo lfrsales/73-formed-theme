@@ -24,7 +24,7 @@
 	<div class="d-flex flex-column flex-fill" id="wrapper">
 		<#if show_header>
 			<header id="banner">
-				<div class="navbar navbar-classic navbar-top py-2 upper-header upper-header-bg upper-header-text-color">
+				<div class="navbar navbar-classic navbar-top py-2 upper-header upper-header-bg upper-header-text-color"  id="upperHeader">
 					<div class="bg-transparent container-fluid px-lg-4 px-xl-6 user-personal-bar">
 						<div class="align-items-center autofit-row">
 							<#if show_language_selector>
@@ -56,7 +56,7 @@
 					</div>
 				</div>
 
-				<div class="lower-header lower-header-bg lower-header-text-color navbar navbar-classic navbar-expand-md navbar-light py-2 site-navigation">
+				<div class="lower-header lower-header-bg lower-header-text-color navbar navbar-classic navbar-expand-md navbar-light py-2 site-navigation" id="lowerHeader">
 					<div class="bg-transparent container-fluid px-lg-4 px-xl-6">
 						<a class="${logo_css_class} align-items-center d-md-flex d-none logo-md mx-2" href="${site_default_url}" title="<@liferay.language_format arguments="" key="go-to-x" />">
 							<img alt="${logo_description}" class="mx-2 site-logo" src="${site_logo}" />
@@ -115,6 +115,10 @@
 <@liferay_util["include"] page=body_bottom_include />
 
 <@liferay_util["include"] page=bottom_include />
+
+<#if enable_sticky_header>
+	<script data-senna-track="permanent" id="stickyJS" src="${javascript_folder}/sticky.js" type="text/javascript"></script>
+</#if>
 
 </body>
 

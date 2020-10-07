@@ -1,0 +1,18 @@
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+    z-index: $zindex-sticky;
+}
+
+.has-control-menu .sticky {
+	top: 56px;
+}
+
+.product-menu-open .sticky {
+	width: calc(100% - 320px);
+}
+
+.sticky + .content {
+	padding-top: 102px;
+}

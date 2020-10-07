@@ -15,6 +15,7 @@
 		<setting configurable="false" key="show-site-name-supported" value="true"/>
 		<setting configurable="true" key="wrap-widget-page-content" type="checkbox" value="true"/>
 
+		<setting configurable="true" key="enable-sticky-header" type="checkbox" value="true" />
 		<setting configurable="true" key="show-language-selector" type="checkbox" value="true" />
 		<setting configurable="true" key="show-secondary-header-navigation" type="checkbox" value="false" />
     </settings>

@@ -1,0 +1,7 @@
+a {
+	@include frontend-token(color, --link-color, $linkColor);
+
+	&:hover {
+		@include frontend-token(color, --link-hover-color, $linkHoverColor);
+	}
+}

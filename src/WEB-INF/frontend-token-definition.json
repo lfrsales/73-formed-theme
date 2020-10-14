@@ -166,6 +166,38 @@
 					],
 					"label": "footer",
 					"name": "footer"
+				},
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "#1264AB",
+							"editorType": "ColorPicker",
+							"label": "link-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "link-color"
+								}
+							],
+							"name": "linkColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#1264AB",
+							"editorType": "ColorPicker",
+							"label": "link-hover-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "link-hover-color"
+								}
+							],
+							"name": "linkHoverColor",
+							"type": "String"
+						}
+					],
+					"label": "links",
+					"name": "links"
 				}
 			],
 			"label": "formed-theme",

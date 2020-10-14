@@ -50,7 +50,17 @@
 							</div>
 
 							<div class="autofit-col personal-bar-container">
-								<@liferay.user_personal_bar />
+								<#if !is_signed_in>
+									<button
+										class="btn btn-unstyled sign-in text-default"
+										onclick="showLoginModal()"
+										type="button"
+									>
+										${sign_in_text}
+									</button>
+								<#else>
+									<@liferay.user_personal_bar />
+								</#if>
 							</div>
 						</div>
 					</div>
@@ -108,6 +118,72 @@
 					</div>
 				</div>
 			</footer>
+		</#if>
+
+		<#if !is_signed_in>	
+			<div>
+				<div class="modal-backdrop fade hide" id="loginModalBackdrop"></div>
+
+				<div
+					aria-labelledby="loginModalLabel"
+					class="fade modal hide"
+					id="loginModal"
+					role="dialog"
+					tabindex="-1"
+				>
+					<div class="modal-dialog modal-sm">
+						<div class="modal-content">
+							<div class="modal-header">
+								<div class="modal-title" id="loginModalLabel">
+									${sign_in_text}
+								</div>
+
+								<button
+									aria-labelledby="Close"
+									class="close"
+									onclick="hideLoginModal()"
+									role="button"
+									type="button"
+								>
+									<@clay["icon"] symbol="times" />
+								</button>
+							</div>
+							<div class="modal-body">
+								<#assign preferences = freeMarkerPortletPreferences.getPreferences("portletSetupPortletDecoratorId", "barebone") />
+
+								<@liferay_portlet["runtime"]
+									defaultPreferences=preferences
+									portletName="com_liferay_login_web_portlet_LoginPortlet"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				const showLoginModal = () => {
+					document.getElementById('loginModalBackdrop').classList.remove('hide');
+					document.getElementById('loginModal').classList.remove('hide');
+					document.getElementsByTagName('body')[0].classList.add('modal-open');
+
+					setTimeout(() => {
+						document.getElementById('loginModal').classList.add('show');
+						document.getElementById('loginModalBackdrop').classList.add('show');
+					}, 1);
+				}
+
+				const hideLoginModal = () => {
+					document.getElementById('loginModal').classList.remove('show');
+					document.getElementById('loginModalBackdrop').classList.remove('show');
+
+					setTimeout(() => {
+						document.getElementById('loginModalBackdrop').classList.add('hide');
+						document.getElementById('loginModal').classList.add('hide');
+						document.getElementsByTagName('body')[0].classList.remove('modal-open');
+					}, 1);
+				}
+			</script>
 		</#if>
 	</div>
 </div>

@@ -9,3 +9,11 @@ A simple Liferay theme that allows for easy customization of the color scheme us
 3. `npm run deploy`
 
 ![screenshot](/images/screenshot.png)
+
+### Features
+
+* Customizable Header and Footer colors.
+* Sticky Header
+* Customizable Logo Alignment
+* Language Selector
+* Modal for Login

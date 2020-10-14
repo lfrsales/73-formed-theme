@@ -50,7 +50,7 @@
 							</div>
 
 							<div class="autofit-col personal-bar-container">
-								<#if !is_signed_in>
+								<#if use_sign_in_modal && !is_signed_in>
 									<button
 										class="btn btn-unstyled sign-in text-default"
 										onclick="showLoginModal()"
@@ -120,7 +120,7 @@
 			</footer>
 		</#if>
 
-		<#if !is_signed_in>	
+		<#if use_sign_in_modal && !is_signed_in>	
 			<div>
 				<div class="modal-backdrop fade hide" id="loginModalBackdrop"></div>
 

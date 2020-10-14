@@ -17,6 +17,7 @@
 
 		<setting configurable="true" key="enable-sticky-header" type="checkbox" value="true" />
 		<setting configurable="true" key="show-language-selector" type="checkbox" value="true" />
+		<setting configurable="true" key="use-sign-in-modal" type="checkbox" value="true" />
     </settings>
     <roles>
       <role-name>User</role-name>

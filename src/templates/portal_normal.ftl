@@ -170,6 +170,8 @@
 					setTimeout(() => {
 						document.getElementById('loginModal').classList.add('show');
 						document.getElementById('loginModalBackdrop').classList.add('show');
+
+						document.getElementById('_com_liferay_login_web_portlet_LoginPortlet_login').focus();
 					}, 1);
 				}
 

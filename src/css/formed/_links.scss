@@ -1,4 +1,4 @@
-a {
+[id="wrapper"] a {
 	@include frontend-token(color, --link-color, $linkColor);
 
 	&:hover {

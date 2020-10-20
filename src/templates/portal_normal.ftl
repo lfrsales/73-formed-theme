@@ -19,9 +19,13 @@
 <@liferay_util["include"] page=body_top_include />
 
 <div class="d-flex flex-column min-vh-100">
-	<div class="<#if show_control_panel != true>hide</#if>">
+	<#if show_control_panel != true>
+		<div class="hide">
+			<@liferay.control_menu />
+		</div>
+	<#else>
 		<@liferay.control_menu />
-	</div>
+	</#if>
 
 	<div class="d-flex flex-column flex-fill" id="wrapper">
 		<#if show_header>

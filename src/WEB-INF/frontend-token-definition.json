@@ -208,6 +208,537 @@
 				{
 					"frontendTokens": [
 						{
+							"defaultValue": "#FFF",
+							"editorType": "ColorPicker",
+							"label": "form-background-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-background-color"
+								}
+							],
+							"name": "formBackgroundColor",
+							"type": "String"
+						}
+					],
+					"label": "form",
+					"name": "form"
+				},
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "#FFF",
+							"editorType": "ColorPicker",
+							"label": "form-input-background-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-background-color"
+								}
+							],
+							"name": "formInputBackgroundColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#315498",
+							"editorType": "ColorPicker",
+							"label": "form-input-border-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-border-color"
+								}
+							],
+							"name": "formInputBorderColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "4px",
+							"label": "form-input-border-radius",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-border-radius"
+								}
+							],
+							"name": "formInputBorderRadius",
+							"type": "String"
+						},
+						{
+							"defaultValue": "2px",
+							"label": "form-input-border-width",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-border-width"
+								}
+							],
+							"name": "formInputBorderWidth",
+							"type": "String"
+						},
+						{
+							"defaultValue": "12px 12px 12px 12px",
+							"label": "form-input-padding",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-padding"
+								}
+							],
+							"name": "formInputPadding",
+							"type": "String"
+						}
+					],
+					"label": "form-input",
+					"name": "formInput"
+				},
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "#315498",
+							"editorType": "ColorPicker",
+							"label": "form-input-label-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-label-text-color"
+								}
+							],
+							"name": "formInputLabelTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "12px",
+							"label": "form-input-label-font-size",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-label-font-size"
+								}
+							],
+							"name": "formInputLabelFontSize",
+							"type": "String"
+						},
+						{
+							"defaultValue": "16px",
+							"label": "form-input-label-height",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-label-height"
+								}
+							],
+							"name": "formInputLabelHeight",
+							"type": "String"
+						},
+						{
+							"defaultValue": "0 0 0 12px",
+							"label": "form-input-label-margin",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-label-margin"
+								}
+							],
+							"name": "formInputLabelMargin",
+							"type": "String"
+						},
+						{
+							"defaultValue": "0 5px",
+							"label": "form-input-label-padding",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-label-padding"
+								}
+							],
+							"name": "formInputLabelPadding",
+							"type": "String"
+						},
+						{
+							"defaultValue": "absolute",
+							"label": "form-input-label-position",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-label-position"
+								}
+							],
+							"name": "formInputLabelPosition",
+							"type": "String"
+						},
+						{
+							"defaultValue": "-6px",
+							"label": "form-input-label-top-",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-label-top-"
+								}
+							],
+							"name": "formInputLabelTopOffset",
+							"type": "String"
+						},
+						{
+							"defaultValue": "37.5%",
+							"label": "form-input-label-background-gradient-percentage",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-label-background-gradient-percentage"
+								}
+							],
+							"name": "formInputLabelBackgroundGradientPercentage",
+							"type": "String"
+						}
+					],
+					"label": "form-input-label",
+					"name": "formInputLabel"
+				},
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "#FFF",
+							"editorType": "ColorPicker",
+							"label": "form-input-group-button-background-",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-group-button-background-"
+								}
+							],
+							"name": "formInputGroupButtonBackgroundColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#9299c1",
+							"editorType": "ColorPicker",
+							"label": "form-input-group-button-background-color-hover",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-group-button-background-color-hover"
+								}
+							],
+							"name": "formInputGroupButtonBackgroundColorHover",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#315498",
+							"editorType": "ColorPicker",
+							"label": "form-input-group-button-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-group-button-text-color"
+								}
+							],
+							"name": "formInputGroupButtonTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#414689",
+							"editorType": "ColorPicker",
+							"label": "form-input-group-button-text-color-hover",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-input-group-button-text-color-hover"
+								}
+							],
+							"name": "formInputGroupButtonTextColorHover",
+							"type": "String"
+						}
+					],
+					"label": "form-input-group",
+					"name": "formInputGroup"
+				},
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "20px 0 0 12px",
+							"label": "form-name-margin",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-name-margin"
+								}
+							],
+							"name": "formNameMargin",
+							"type": "String"
+						},
+						{
+							"defaultValue": "32px",
+							"label": "form-name-font-size",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-name-font-size"
+								}
+							],
+							"name": "formNameFontSize",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#315498",
+							"editorType": "ColorPicker",
+							"label": "form-name-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-name-text-color"
+								}
+							],
+							"name": "formNameTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "4px 0 16px 12px",
+							"label": "form-description-margin",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-description-margin"
+								}
+							],
+							"name": "formDescriptionMargin",
+							"type": "String"
+						},
+						{
+							"defaultValue": "16px",
+							"label": "form-description-font-size",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-description-font-size"
+								}
+							],
+							"name": "formDescriptionFontSize",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#6b6c7e",
+							"editorType": "ColorPicker",
+							"label": "form-description-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-description-text-color"
+								}
+							],
+							"name": "formDescriptionTextColor",
+							"type": "String"
+						}
+					],
+					"label": "form-widget-header",
+					"name": "formWidgetHeader"
+				},
+				{
+					"frontendTokens": [
+						{
+							"defaultValue": "#315498",
+							"editorType": "ColorPicker",
+							"label": "form-active-page-background-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-active-page-background-color"
+								}
+							],
+							"name": "formActivePageBackgroundColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#315498",
+							"editorType": "ColorPicker",
+							"label": "form-active-page-label-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-active-page-label-text-color"
+								}
+							],
+							"name": "formActivePageLabelTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#FFF",
+							"editorType": "ColorPicker",
+							"label": "form-active-page-number-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-active-page-number-text-color"
+								}
+							],
+							"name": "formActivePageNumberTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#252c56",
+							"editorType": "ColorPicker",
+							"label": "form-completed-page-background-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-completed-page-background-color"
+								}
+							],
+							"name": "formCompletedPageBackgroundColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#252c56",
+							"editorType": "ColorPicker",
+							"label": "form-completed-page-label-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-completed-page-label-text-color"
+								}
+							],
+							"name": "formCompletedPageLabelTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#FFF",
+							"editorType": "ColorPicker",
+							"label": "form-completed-page-number-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-completed-page-number-text-color"
+								}
+							],
+							"name": "formCompletedPageNumberTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#9299c1",
+							"editorType": "ColorPicker",
+							"label": "form-incompleted-page-background-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-incompleted-page-background-color"
+								}
+							],
+							"name": "formIncompletedPageBackgroundColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#9299c1",
+							"editorType": "ColorPicker",
+							"label": "form-incompleted-page-label-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-incompleted-page-label-text-color"
+								}
+							],
+							"name": "formIncompletedPageLabelTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#252c56",
+							"editorType": "ColorPicker",
+							"label": "form-incompleted-page-number-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-incompleted-page-number-text-color"
+								}
+							],
+							"name": "formIncompletedPageNumberTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "0 12px 10px",
+							"label": "form-page-name-margin",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-page-name-margin"
+								}
+							],
+							"name": "formPageNameMargin",
+							"type": "String"
+						},
+						{
+							"defaultValue": "28px",
+							"label": "form-page-name-font-size",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-page-name-font-size"
+								}
+							],
+							"name": "formPageNameFontSize",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#272833",
+							"editorType": "ColorPicker",
+							"label": "form-page-name-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-page-name-text-color"
+								}
+							],
+							"name": "formPageNameTextColor",
+							"type": "String"
+						},
+						{
+							"defaultValue": "10px 12px 24px",
+							"label": "form-page-description-margin",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-page-description-margin"
+								}
+							],
+							"name": "formPageDescriptionMargin",
+							"type": "String"
+						},
+						{
+							"defaultValue": "14px",
+							"label": "form-page-description-font-size",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-page-description-font-size"
+								}
+							],
+							"name": "formPageDescriptionFontSize",
+							"type": "String"
+						},
+						{
+							"defaultValue": "#272833",
+							"editorType": "ColorPicker",
+							"label": "form-page-description-text-color",
+							"mappings": [
+								{
+									"type": "cssVariable",
+									"value": "form-page-description-text-color"
+								}
+							],
+							"name": "formPageDescriptionTextColor",
+							"type": "String"
+						}
+					],
+					"label": "form-widget-form-page",
+					"name": "formWidgetFormPage"
+				}
+			],
+			"label": "forms",
+			"name": "forms"
+		},
+		{
+			"frontendTokenSets": [
+				{
+					"frontendTokens": [
+						{
 							"defaultValue": "#fff",
 							"editorType": "ColorPicker",
 							"label": "white",

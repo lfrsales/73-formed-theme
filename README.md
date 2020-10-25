@@ -15,6 +15,7 @@ A simple Liferay theme that allows for easy customization of the color scheme us
 * Customizable Header and Footer Colors
 * Sticky Header
 * Customizable Logo Alignment
+* Customizable Form Styles
 * Language Selector
 * Modal for Login
 * Customizable Link Colors

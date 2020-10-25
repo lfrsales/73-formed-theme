@@ -1,0 +1,102 @@
+.form-group {
+	label, legend {
+		align-items: center;
+		color: $formInputLabelTextColor;
+		display: flex;
+		font-size: $formInputLabelFontSize;
+		letter-spacing: .4px;
+	}
+
+	label:not([class*="input-group"]) {
+		&:only-child {
+
+			> [type="checkbox"] {
+				margin-right: 4px;
+			}
+		}
+
+		&:not(:only-child) {
+			background-color: $formInputBackgroundColor;
+			background: linear-gradient(to bottom, $formBackgroundColor $formInputLabelBackgroundGradientPercentage, $formInputBackgroundColor $formInputLabelBackgroundGradientPercentage);
+			line-height: $formInputLabelHeight;
+			height: $formInputLabelHeight;
+			margin: $formInputLabelMargin;
+			padding: $formInputLabelPadding;
+			position: $formInputLabelPosition;
+			top: $formInputLabelTopOffset;
+			z-index: 1;
+		}
+	}
+
+	.form-control, .cke, .table {
+		border-radius: $formInputBorderRadius;
+		border: solid $formInputBorderWidth $formInputBorderColor;
+	}
+
+	.separator {
+		border-top: solid $formInputBorderWidth $formInputBorderColor;
+	}
+
+	.cke {
+		background-color: $formInputBackgroundColor;
+		padding: 0 1px;
+	}
+
+	.cke_inner, .cke_top {
+		background-color: transparent;
+	}
+
+	.form-control {
+		background-color: $formInputBackgroundColor;
+		font-size: 16px;
+		height: auto;
+		line-height: 20px;
+		padding: $formInputPadding;
+	}
+
+	.input-group {
+		.input-group-item {
+			margin-right: 0;
+			margin-left: 0;
+	
+			& > {
+				& * {
+					height: 100%;
+				}
+	
+				& .btn,
+				& .input-group-inset-item,
+				& .input-group-text {
+					background-color: $formInputGroupButtonBackgroundColor;
+					border-color: $formInputBorderColor;
+					border-width: $formInputBorderWidth;
+					color: $formInputGroupButtonTextColor;
+
+					&.btn:hover {
+						background-color: $formInputGroupButtonBackgroundColorHover;
+						color: $formInputGroupButtonTextColorHover;
+					}
+				}
+			}
+	
+			&.input-group-append {
+				.btn,
+				.input-group-inset-item,
+				.input-group-text {
+					border-left-width: 0;
+				}
+			}
+		}
+
+		&.clay-color .input-group-inset-item {
+			background-color: $formInputBackgroundColor;
+			border-right-width: 0;
+		}
+	}
+
+	.table {
+		th, td {
+			color: $formInputLabelTextColor;
+		}
+	}
+}

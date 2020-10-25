@@ -1,0 +1,107 @@
+.portlet-forms {
+	background-color: $formBackgroundColor;
+
+	.form .ddm-form-basic-info {
+		.ddm-form-name {
+			color: $formNameTextColor;
+			font-size: $formNameFontSize;
+			margin: $formNameMargin;
+			padding: 0;
+		}
+
+		.ddm-form-description {
+			color: $formDescriptionTextColor;
+			font-size: $formDescriptionFontSize;
+			margin: $formDescriptionMargin;
+			padding: 0;
+		}
+	}
+
+	.ddm-form-page {
+		.lfr-ddm-form-page-title {
+			color: $formPageNameTextColor;
+			font-size: $formPageNameFontSize;
+			margin: $formPageNameMargin;
+			padding: 0;
+		}
+	
+		.lfr-ddm-form-page-description {
+			color: $formPageDescriptionTextColor;
+			font-size: $formPageDescriptionFontSize;
+			margin: $formPageDescriptionMargin;
+			padding: 0;
+		}
+	}
+
+	// Multistep Items
+
+	.multi-step-item:first-child {
+		.multi-step-indicator .multi-step-indicator-label {
+			left: 0;
+			transform: translateX(0);
+		}
+	}
+
+	.multi-step-item:last-child {
+		.multi-step-indicator .multi-step-indicator-label {
+			left: auto;
+			right: 0;
+			transform: translateX(0);
+		}
+	}
+
+	.multi-step-item:not(.active) .multi-step-icon {
+		cursor: pointer;
+	}
+
+	// Multistep Items Active
+
+	.multi-step-item.active .multi-step-icon,
+	.ddm-user-view-content .multi-step-item.active .multi-step-divider {
+		background-color: $formActivePageBackgroundColor;
+	}
+
+	.multi-step-item.active .multi-step-indicator-label {
+		color: $formActivePageLabelTextColor;
+	}
+
+	.multi-step-item.active .multi-step-icon {
+		color: $formActivePageNumberTextColor;
+	}
+
+	// Multistep Items Complete
+
+	.multi-step-item.complete .multi-step-icon,
+	.ddm-user-view-content .multi-step-item.complete .multi-step-divider {
+		background-color: $formCompletedPageBackgroundColor;
+	}
+
+	.multi-step-item.complete .multi-step-indicator-label {
+		color: $formCompletedPageLabelTextColor;
+	}
+
+	.multi-step-item.complete .multi-step-icon {
+		color: $formCompletedPageNumberTextColor;
+	}
+
+	// Multistep Items Incomplete
+
+	.multi-step-item .multi-step-icon,
+	.ddm-user-view-content .multi-step-item .multi-step-divider {
+		background-color: $formIncompletedPageBackgroundColor;
+	}
+
+	.multi-step-item .multi-step-indicator-label {
+		color: $formIncompletedPageLabelTextColor;
+	}
+
+	.multi-step-item .multi-step-icon {
+		color: $formIncompletedPageNumberTextColor;
+	}
+
+	// Color Picker
+
+	.clay-color-picker > input {
+		display: none;
+	}
+}

@@ -20,3 +20,57 @@ $footerTextColor: #FFF;
 
 $linkColor: #1264AB;
 $linkHoverColor: #1264AB;
+
+// Forms
+
+// Forms - Form
+$formBackgroundColor: var(--form-background-color, #FFF);
+
+// Forms - Input
+$formInputBackgroundColor: var(--form-input-background-color, #FFF);
+$formInputBorderColor: var(--form-input-border-color, #315498);
+$formInputBorderRadius: var(--form-input-border-radius, 4px);
+$formInputBorderWidth: var(--form-input-border-width, 2px);
+$formInputPadding: var(--form-input-padding, 12px 12px 12px 12px);
+
+// Forms - Input Label
+$formInputLabelTextColor: var(--form-input-label-text-color, #315498);
+$formInputLabelFontSize: var(--form-input-label-font-size, 12px);
+$formInputLabelHeight: var(--form-input-label-height, 16px);
+$formInputLabelMargin: var(--form-input-label-margin, 0 0 0 12px);
+$formInputLabelPadding: var(--form-input-label-padding, 0 5px);
+$formInputLabelPosition: var(--form-input-label-position, absolute);
+$formInputLabelTopOffset: var(--form-input-label-top-offest, -6px);
+$formInputLabelBackgroundGradientPercentage: var(--form-input-label-background-gradient-percentage, 37.5%);
+
+// Forms - Input Group
+$formInputGroupButtonBackgroundColor: var(--form-input-group-button-background-color, #FFF);
+$formInputGroupButtonBackgroundColorHover: var(--form-input-group-button-background-color-hover, #f5ebf4);
+$formInputGroupButtonTextColor: var(--form-input-group-button-text-color, #315498);
+$formInputGroupButtonTextColorHover: var(--form-input-group-button-text-color-hover, #414689);
+
+// Forms - Widget Header
+$formNameMargin: var(--form-name-margin, 20px 0 0 12px);
+$formNameFontSize: var(--form-name-font-size, 32px);
+$formNameTextColor: var(--form-name-text-color, #315498);
+$formDescriptionMargin: var(--form-description-margin, 4px 0 16px 12px);
+$formDescriptionFontSize: var(--form-description-font-size, var(--font-size-base));
+$formDescriptionTextColor: var(--form-description-text-color, #6b6c7e);
+
+// Forms - Widget Form Pages
+$formActivePageBackgroundColor: var(--form-active-page-background-color, #315498);
+$formActivePageLabelTextColor: var(--form-active-page-label-text-color, #315498);
+$formActivePageNumberTextColor: var(--form-active-page-number-text-color, #FFF);
+$formCompletedPageBackgroundColor: var(--form-completed-page-background-color,#252c56);
+$formCompletedPageLabelTextColor: var(--form-completed-page-label-text-color,#252c56);
+$formCompletedPageNumberTextColor: var(--form-completed-page-number-text-color, #FFF);
+$formIncompletedPageBackgroundColor: var(--form-incompleted-page-background-color,#9299c1);
+$formIncompletedPageLabelTextColor: var(--form-incompleted-page-label-text-color,#9299c1);
+$formIncompletedPageNumberTextColor: var(--form-incompleted-page-number-text-color,#252c56);
+
+$formPageNameMargin: var(--form-page-name-margin, 0 12px 10px);
+$formPageNameFontSize: var(--form-page-name-font-size, 28px);
+$formPageNameTextColor: var(--form-page-name-text-color, var(--body-color));
+$formPageDescriptionMargin: var(--form-page-description-margin, 10px 12px 24px);
+$formPageDescriptionFontSize: var(--form-page-description-margin, 14px);
+$formPageDescriptionTextColor: var(--form-age-description-text-color, var(--font-size-base));

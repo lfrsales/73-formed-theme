@@ -1,10 +1,10 @@
-.sticky {
+body:not(.has-edit-mode-menu) .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
     z-index: 999;
 }
 
-.product-menu-open .sticky {
+.product-menu-open:not(.has-edit-mode-menu) .sticky {
 	width: calc(100% - #{$sidenav-width});
 }

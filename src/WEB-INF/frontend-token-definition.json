@@ -92,7 +92,17 @@
 								}
 							],
 							"name": "lowerHeaderFlexDirection",
-							"type": "String"
+							"type": "String",
+							"validValues": [
+								{
+									"label": "row",
+									"value": "row"
+								},
+								{
+									"label": "row-reverse",
+									"value": "row-reverse"
+								}
+							]
 						},
 						{
 							"defaultValue": "56px",

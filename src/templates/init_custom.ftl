@@ -18,5 +18,5 @@
 	show_language_selector = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-language-selector"))
 	use_sign_in_modal = getterUtil.getBoolean(themeDisplay.getThemeSetting("use-sign-in-modal"))
 
-	show_control_panel = getterUtil.getBoolean(sessionClicks.get(request, "SHOW_CONTROL_MENU", "true"))
+	show_control_menu = getterUtil.getBoolean(sessionClicks.get(request, "SHOW_CONTROL_MENU", "true"))
 />

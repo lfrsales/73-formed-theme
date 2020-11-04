@@ -19,11 +19,7 @@
 <@liferay_util["include"] page=body_top_include />
 
 <div class="d-flex flex-column min-vh-100">
-	<#if show_control_panel != true>
-		<div class="hide">
-			<@liferay.control_menu />
-		</div>
-	<#else>
+	<#if show_control_menu == true>
 		<@liferay.control_menu />
 	</#if>
 
@@ -203,6 +199,8 @@
 <#if enable_sticky_header && !css_class?contains("has-edit-mode-menu")>
 	<script data-senna-track="permanent" id="stickyJS" src="${javascript_folder}/sticky.js" type="text/javascript"></script>
 </#if>
+
+<script data-senna-track="permanent" src="${javascript_folder}/toggle-control-menu.js" type="text/javascript"></script>
 
 </body>
 

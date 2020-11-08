@@ -375,15 +375,25 @@
 								}
 							],
 							"name": "formInputLabelPosition",
-							"type": "String"
+							"type": "String",
+							"validValues": [
+								{
+									"label": "absolute",
+									"value": "absolute"
+								},
+								{
+									"label": "static",
+									"value": "static"
+								}
+							]
 						},
 						{
 							"defaultValue": "-6px",
-							"label": "form-input-label-top-",
+							"label": "form-input-label-top-offset",
 							"mappings": [
 								{
 									"type": "cssVariable",
-									"value": "form-input-label-top-"
+									"value": "form-input-label-top-offset"
 								}
 							],
 							"name": "formInputLabelTopOffset",
@@ -410,11 +420,11 @@
 						{
 							"defaultValue": "#FFF",
 							"editorType": "ColorPicker",
-							"label": "form-input-group-button-background-",
+							"label": "form-input-group-button-background-color",
 							"mappings": [
 								{
 									"type": "cssVariable",
-									"value": "form-input-group-button-background-"
+									"value": "form-input-group-button-background-color"
 								}
 							],
 							"name": "formInputGroupButtonBackgroundColor",

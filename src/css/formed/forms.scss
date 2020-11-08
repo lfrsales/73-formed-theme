@@ -31,6 +31,7 @@
 	.form-control, .cke, .table {
 		border-radius: $formInputBorderRadius;
 		border: solid $formInputBorderWidth $formInputBorderColor;
+		overflow: hidden;
 	}
 
 	.separator {
@@ -44,6 +45,11 @@
 
 	.cke_inner, .cke_top {
 		background-color: transparent;
+	}
+
+	.cke_contents {
+		border-bottom-left-radius: $formInputBorderRadius;
+		border-bottom-right-radius: $formInputBorderRadius;
 	}
 
 	.form-control {
@@ -84,6 +90,31 @@
 				.input-group-inset-item,
 				.input-group-text {
 					border-left-width: 0;
+				}
+			}
+
+			.input-group-inset-item-after {
+				border-top-right-radius: $formInputBorderRadius;
+				border-bottom-right-radius: $formInputBorderRadius;
+			}
+
+			&.input-group-append:not(:first-child) {
+				& > .btn,
+				& > .form-control,
+				& > .form-file .btn,
+				& > .input-group-text {
+					border-top-right-radius: $formInputBorderRadius;
+					border-bottom-right-radius: $formInputBorderRadius;
+				}
+			}
+
+			&.input-group-prepend:not(:last-child) {
+				& > .btn,
+				& > .form-control,
+				& > .form-file .btn,
+				& > .input-group-text {
+					border-top-left-radius: $formInputBorderRadius;
+					border-bottom-left-radius: $formInputBorderRadius;
 				}
 			}
 		}

@@ -40,12 +40,12 @@ $formInputLabelHeight: var(--form-input-label-height, 16px);
 $formInputLabelMargin: var(--form-input-label-margin, 0 0 0 12px);
 $formInputLabelPadding: var(--form-input-label-padding, 0 5px);
 $formInputLabelPosition: var(--form-input-label-position, absolute);
-$formInputLabelTopOffset: var(--form-input-label-top-offest, -6px);
+$formInputLabelTopOffset: var(--form-input-label-top-offset, -6px);
 $formInputLabelBackgroundGradientPercentage: var(--form-input-label-background-gradient-percentage, 37.5%);
 
 // Forms - Input Group
 $formInputGroupButtonBackgroundColor: var(--form-input-group-button-background-color, #FFF);
-$formInputGroupButtonBackgroundColorHover: var(--form-input-group-button-background-color-hover, #f5ebf4);
+$formInputGroupButtonBackgroundColorHover: var(--form-input-group-button-background-color-hover, #9299c1);
 $formInputGroupButtonTextColor: var(--form-input-group-button-text-color, #315498);
 $formInputGroupButtonTextColorHover: var(--form-input-group-button-text-color-hover, #414689);
 
@@ -72,5 +72,5 @@ $formPageNameMargin: var(--form-page-name-margin, 0 12px 10px);
 $formPageNameFontSize: var(--form-page-name-font-size, 28px);
 $formPageNameTextColor: var(--form-page-name-text-color, var(--body-color));
 $formPageDescriptionMargin: var(--form-page-description-margin, 10px 12px 24px);
-$formPageDescriptionFontSize: var(--form-page-description-margin, 14px);
-$formPageDescriptionTextColor: var(--form-age-description-text-color, var(--font-size-base));
+$formPageDescriptionFontSize: var(--form-page-description-font-size, 14px);
+$formPageDescriptionTextColor: var(--form-page-description-text-color, var(--body-color));

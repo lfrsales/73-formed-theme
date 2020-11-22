@@ -7,7 +7,7 @@
 		letter-spacing: .4px;
 	}
 
-	label:not([class*="input-group"]) {
+	&:not(.slider) label:not([class*="input-group"]) {
 		&:only-child {
 
 			> [type="checkbox"] {

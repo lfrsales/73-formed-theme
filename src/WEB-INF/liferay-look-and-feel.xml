@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <look-and-feel>
   <compatibility>
-    <version>7.3.0+</version>
+    <version>7.4.0+</version>
   </compatibility>
   <theme id="73-formed-theme" name="73 Formed Theme">
     <template-extension>ftl</template-extension>

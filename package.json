@@ -10,7 +10,7 @@
 		"fontAwesome": true,
 		"screenshot": "",
 		"templateLanguage": "ftl",
-		"version": "7.3"
+		"version": "7.4"
 	},
 	"devDependencies": {
 		"compass-mixins": "0.12.10",
